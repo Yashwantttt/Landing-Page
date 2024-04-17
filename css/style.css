@@ -73,3 +73,42 @@ button{
     font-size: 18px;
     font-weight: 600;
 }
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head{
+    align-self: center;
+    font-size: 32px;
+    font-weight: 800;
+    color: #1f2937;
+    padding: 40px;
+}
+.images{
+    display: flex;
+    gap: 40px;
+    padding-bottom: 6em;
+    justify-content: center;
+}
+.images img{
+    min-height: 140px;
+    min-width: 140px;
+    max-width: min-content;
+    border: 3px solid rgb(102, 102, 173);
+    border-radius: 10%;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    max-width:min-content;
+}
+
+.sub2{
+    display: flex;
+    flex-wrap: wrap ;
+    font-size: 16px;
+    color: rgb(100, 100, 100);    
+}
