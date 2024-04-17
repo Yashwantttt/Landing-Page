@@ -71,7 +71,7 @@ a{
 button{
     background-color: #3882f6;
     border: 0px;
-    border-radius: 16%;
+    border-radius: 5px;
     padding: 5px 20px;
     color: #f9faf8;
     font-size: 18px;
@@ -141,4 +141,31 @@ button{
     font-weight: 900;
     align-self:flex-end;
     padding-right: 10px;
+}
+
+/*              SECTION 4                   */
+.section4{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    box-sizing: content-box;
+}
+
+.section4 button {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.pop{
+    display: flex;
+    background-color: #3882f6;
+    padding: 20px;
+    color: #e5e7eb;
+    gap: 20px;
+    border-radius: 5px;
+}
+.imp{
+    color: #f9faf8;
+    font-size: 20px;
+    font-weight: 700;
 }
