@@ -71,7 +71,7 @@ a{
 button{
     background-color: #3882f6;
     border: 0px;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 5px 20px;
     color: #f9faf8;
     font-size: 18px;
@@ -147,25 +147,35 @@ button{
 .section4{
     display: flex;
     justify-content: center;
-    margin: 50px;
+    margin: 80px;
     box-sizing: content-box;
 }
 
 .section4 button {
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .pop{
     display: flex;
     background-color: #3882f6;
-    padding: 20px;
+    padding: 50px 100px;
     color: #e5e7eb;
-    gap: 20px;
+    gap: 100px;
     border-radius: 5px;
 }
 .imp{
     color: #f9faf8;
     font-size: 20px;
     font-weight: 700;
+}
+
+/*              SECTION 5                   */
+
+.section5{
+    display: flex;
+    background-color: #1f2937;
+    padding: 15px;
+    justify-content: center;
+    color: #e5e7eb;
 }
